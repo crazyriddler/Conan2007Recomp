@@ -8,7 +8,7 @@ Its features include:
 - Frame rate up to 120 fps (above 120 fps, physics and collisions break).
 - Anisotropic filtering and 4x and 8x MSAA
 - Shadow resolution: 1024, 2048, or 4096
-- Shadow smoothing: original, smooth, and extra smooth
+- Soft Shadows: original, soft, and softer
 - Bloom effect quality: original, high, or very high
 - Antialiasing for transparent textures
 - Ambient Occlusion (SSAO)
