@@ -21,9 +21,6 @@ You can also change the language from the game launcher.
 
 To play it, you need an original copy of Conan 2007, make a backup using a compatible DVD burner, and extract the data from the ISO. This data should go in the “Data” folder, with the .xex file in the root of that folder.
 
-To play it, you need an original copy of Conan 2007, make a backup using a compatible DVD burner, and extract the data from the ISO. This data should go in the “Data” folder, with the .xex file in the root of that folder.
-
-
 The game currently only supports a controller, and on non-16:9 screens, it will display black bars. If there is interest in keyboard and mouse support and ultra-widescreen support, I will implement them.
 
 
