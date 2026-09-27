@@ -1,0 +1,34 @@
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:526:81: error: use of undeclared identifier 'g_ShadowAtlasTexelScale'
+        float4 c254 = asfloat(uint4(0xB9000000, 0x39400000, 0xB9C00000, 0xB8800000)) * g_ShadowAtlasTexelScale;
+                                                                                       ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:527:81: error: use of undeclared identifier 'g_ShadowAtlasTexelScale'
+        float4 c255 = asfloat(uint4(0x39C00000, 0x38800000, 0x39000000, 0xB9400000)) * g_ShadowAtlasTexelScale;
+                                                                                       ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:529:15: error: use of undeclared identifier 'g_ShadowSoftness'
+        [branch] if (g_ShadowSoftness > 0.0)
+                     ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:532:63: error: use of undeclared identifier 'g_ShadowSoftness'
+                float2 conanCS = float2(cos(conanAngle), sin(conanAngle)) * g_ShadowSoftness;
+                                                                            ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:879:197: error: use of undeclared identifier 'g_SoftParticleTexelScale'
+        [branch] if (g_SpecConstants() & (SPEC_CONSTANT_SOFT_PARTICLE_RGBA | SPEC_CONSTANT_SOFT_PARTICLE_ALPHA))        {               float conanSceneZ = g_Texture2DDescriptorHeap[g_SoftParticleDepth].Load(int3(iPos.xy * g_SoftParticleTexelScale, 0)).x;
+                                                                                                                                                                                                                               ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:879:156: error: use of undeclared identifier 'g_SoftParticleDepth'
+        [branch] if (g_SpecConstants() & (SPEC_CONSTANT_SOFT_PARTICLE_RGBA | SPEC_CONSTANT_SOFT_PARTICLE_ALPHA))        {               float conanSceneZ = g_Texture2DDescriptorHeap[g_SoftParticleDepth].Load(int3(iPos.xy * g_SoftParticleTexelScale, 0)).x;
+                                                                                                                                                                                      ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:880:49: error: use of undeclared identifier 'g_SoftParticleW'
+                float conanFade = saturate((rcp(conanSceneZ * g_SoftParticleW.x + g_SoftParticleW.y) - rcp(iPos.z * g_SoftParticleW.x + g_SoftParticleW.y)) / g_SoftParticleDistance);
+                                                              ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:880:69: error: use of undeclared identifier 'g_SoftParticleW'
+                float conanFade = saturate((rcp(conanSceneZ * g_SoftParticleW.x + g_SoftParticleW.y) - rcp(iPos.z * g_SoftParticleW.x + g_SoftParticleW.y)) / g_SoftParticleDistance);
+                                                                                  ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:880:103: error: use of undeclared identifier 'g_SoftParticleW'
+                float conanFade = saturate((rcp(conanSceneZ * g_SoftParticleW.x + g_SoftParticleW.y) - rcp(iPos.z * g_SoftParticleW.x + g_SoftParticleW.y)) / g_SoftParticleDistance);
+                                                                                                                    ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:880:123: error: use of undeclared identifier 'g_SoftParticleW'
+                float conanFade = saturate((rcp(conanSceneZ * g_SoftParticleW.x + g_SoftParticleW.y) - rcp(iPos.z * g_SoftParticleW.x + g_SoftParticleW.y)) / g_SoftParticleDistance);
+                                                                                                                                        ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\5A6CBE4024CB5FDB.ps.hlsl:880:145: error: use of undeclared identifier 'g_SoftParticleDistance'
+                float conanFade = saturate((rcp(conanSceneZ * g_SoftParticleW.x + g_SoftParticleW.y) - rcp(iPos.z * g_SoftParticleW.x + g_SoftParticleW.y)) / g_SoftParticleDistance);
+                                                                                                                                                              ^
+

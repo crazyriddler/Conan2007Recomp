@@ -1,0 +1,8 @@
+# ninja log v7
+4	1943	8119662937579727	CMakeFiles/XenosRecompCorpus.dir/cmake_pch.hxx.pch	bc62c6e782478af3
+5	845	8120881586648180	CMakeFiles/XenosRecompCorpus.dir/corpus_main.cpp.obj	b9234d768f81e682
+7	2721	8120881586668200	CMakeFiles/XenosRecompCorpus.dir/src/XenosRecomp/shader_recompiler.cpp.obj	8976cc4261d7664f
+2721	2795	8120881613811829	XenosRecompCorpus.exe	1eb173ae00e24549
+5	854	8120885377619816	CMakeFiles/XenosRecompCorpus.dir/corpus_main.cpp.obj	b9234d768f81e682
+7	2821	8120885377639851	CMakeFiles/XenosRecompCorpus.dir/src/XenosRecomp/shader_recompiler.cpp.obj	8976cc4261d7664f
+2821	2895	8120885405784979	XenosRecompCorpus.exe	1eb173ae00e24549

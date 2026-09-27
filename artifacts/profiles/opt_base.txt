@@ -1,0 +1,4 @@
+jungle unlocked: = 9343 ft=  4.28ms p50=  4.14 p95=  5.91 p99=  6.13
+newgame unlocked (t>40s): mean 3.08 ms p99 3.71 >50ms 0 >100ms 0
+60 fps: cpu=87% of one core (5.4% of 16 threads) gpu_power=32.7W gpu_util=26% ram_working_set_mb=1.549 private_mb=1.866
+vram: native: vram 361 MB / budget 15280 MB, sysmem 442 MB | textures 152 resolves 16 surfaces 14 buffers 1420 retired 0 srv_next 182 free_srvs 0 rtv_next 21

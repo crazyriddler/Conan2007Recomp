@@ -1,0 +1,28 @@
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\96F6AC48CE8189D3.ps.hlsl:550:7: warning: implicit truncation of vector type [-Wconversion]
+        r0.w = max4(r1.xyzx);
+             ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\96F6AC48CE8189D3.ps.hlsl:557:10: warning: implicit truncation of vector type [-Wconversion]
+        oC0.xyz = max(r0.xyzz, r0.xyzz);
+                ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\96F6AC48CE8189D3.ps.hlsl:559:197: error: use of undeclared identifier 'g_SoftParticleTexelScale'
+        [branch] if (g_SpecConstants() & (SPEC_CONSTANT_SOFT_PARTICLE_RGBA | SPEC_CONSTANT_SOFT_PARTICLE_ALPHA))        {               float conanSceneZ = g_Texture2DDescriptorHeap[g_SoftParticleDepth].Load(int3(iPos.xy * g_SoftParticleTexelScale, 0)).x;
+                                                                                                                                                                                                                               ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\96F6AC48CE8189D3.ps.hlsl:559:156: error: use of undeclared identifier 'g_SoftParticleDepth'
+        [branch] if (g_SpecConstants() & (SPEC_CONSTANT_SOFT_PARTICLE_RGBA | SPEC_CONSTANT_SOFT_PARTICLE_ALPHA))        {               float conanSceneZ = g_Texture2DDescriptorHeap[g_SoftParticleDepth].Load(int3(iPos.xy * g_SoftParticleTexelScale, 0)).x;
+                                                                                                                                                                                      ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\96F6AC48CE8189D3.ps.hlsl:560:49: error: use of undeclared identifier 'g_SoftParticleW'
+                float conanFade = saturate((rcp(conanSceneZ * g_SoftParticleW.x + g_SoftParticleW.y) - rcp(iPos.z * g_SoftParticleW.x + g_SoftParticleW.y)) / g_SoftParticleDistance);
+                                                              ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\96F6AC48CE8189D3.ps.hlsl:560:69: error: use of undeclared identifier 'g_SoftParticleW'
+                float conanFade = saturate((rcp(conanSceneZ * g_SoftParticleW.x + g_SoftParticleW.y) - rcp(iPos.z * g_SoftParticleW.x + g_SoftParticleW.y)) / g_SoftParticleDistance);
+                                                                                  ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\96F6AC48CE8189D3.ps.hlsl:560:103: error: use of undeclared identifier 'g_SoftParticleW'
+                float conanFade = saturate((rcp(conanSceneZ * g_SoftParticleW.x + g_SoftParticleW.y) - rcp(iPos.z * g_SoftParticleW.x + g_SoftParticleW.y)) / g_SoftParticleDistance);
+                                                                                                                    ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\96F6AC48CE8189D3.ps.hlsl:560:123: error: use of undeclared identifier 'g_SoftParticleW'
+                float conanFade = saturate((rcp(conanSceneZ * g_SoftParticleW.x + g_SoftParticleW.y) - rcp(iPos.z * g_SoftParticleW.x + g_SoftParticleW.y)) / g_SoftParticleDistance);
+                                                                                                                                        ^
+C:\Users\jrbar\rexglue-sdk native-render\artifacts\shaders\hlsl\96F6AC48CE8189D3.ps.hlsl:560:145: error: use of undeclared identifier 'g_SoftParticleDistance'
+                float conanFade = saturate((rcp(conanSceneZ * g_SoftParticleW.x + g_SoftParticleW.y) - rcp(iPos.z * g_SoftParticleW.x + g_SoftParticleW.y)) / g_SoftParticleDistance);
+                                                                                                                                                              ^
+

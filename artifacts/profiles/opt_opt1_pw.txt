@@ -1,0 +1,1 @@
+cpu=78% of one core (4.9% of 16 threads) gpu_power=26.1W gpu_util=33%
