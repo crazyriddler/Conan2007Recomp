@@ -1,5 +1,3 @@
-"# Conan2007Recomp" 
-
 Recompiled using Rexglue, from the 2007 Xbox 360 version of Conan, with native DirectX 12 rendering.
 
 Its features include:
